@@ -1,4 +1,4 @@
-##　openai-agents-sdk-demo
+## openai-agents-sdk-demo
 ### .env
 .env.exampleをコピーして.env.localにしてください．
 ### 環境
