@@ -6,6 +6,6 @@
 
 
 ## langgraph-demo
-[langgraph](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)
+[LangGraph](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)
 
 現状，MCPの利用と，superviserのみ
