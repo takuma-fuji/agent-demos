@@ -1,0 +1,29 @@
+{
+    "mcpServers": {
+        "time": {
+            "command": "uvx",
+            "args": ["mcp-server-time", "--local-timezone", "Asia/Tokyo"],
+            "transport": "stdio"
+        },
+        "brave-search": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "-e",
+                "BRAVE_API_KEY",
+                "mcp/brave-search"
+            ],
+            "env": {
+                "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+            },
+            "transport": "stdio"
+        },
+        "clothing-suggestion":{
+            "command": "python",
+            "args": ["server.py"],
+            "transport": "stdio"
+        }
+    }
+}
