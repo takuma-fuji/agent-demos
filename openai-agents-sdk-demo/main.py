@@ -1,10 +1,5 @@
-"""A terminal chatbot that helps elementary‑school students discover a **summer‑holiday research topic**.
-
-Powered by the **OpenAI Agents SDK**.
-"""
 from __future__ import annotations
 
-import os
 from dotenv import load_dotenv
 from agents import Agent, Runner, WebSearchTool
 from agents.extensions.handoff_prompt import (
